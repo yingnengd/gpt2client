@@ -21,10 +21,11 @@ setup(
 	keywords = ['gpt-2', 'AI', 'ML', 'wrapper', 'transformer', 'machine learning', 'openai', 'text generation'],
 	install_requires=[
 			'numpy==1.18.1',
-			'tensorflow==1.14.0',
+			'tensorflow-gpu==1.15.0',
 			'regex',
 			'tqdm',
-			'requests',
+			'requests'，
+24
 			'termcolor',
 			'gpt_2_simple'
 		],
