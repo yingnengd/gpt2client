@@ -20,12 +20,11 @@ setup(
 	download_url = 'https://github.com/rish-16/gpt2client/archive/2.1.tar.gz',
 	keywords = ['gpt-2', 'AI', 'ML', 'wrapper', 'transformer', 'machine learning', 'openai', 'text generation'],
 	install_requires=[
-			'numpy==1.18.1',
+			'numpy',
 			'tensorflow-gpu==1.15.0',
 			'regex',
 			'tqdm',
-			'requests'，
-24
+			'requests',
 			'termcolor',
 			'gpt_2_simple'
 		],
